@@ -1,8 +1,9 @@
-header {
-    background-color: #FF006B;
-    color: white;
+:root{
+    --cor-de-fundo:#EBECEE;
 }
-
-.cabecalho-imagem{
-    width: 20%;
+body{
+    background-color: var(--cor-de-fundo);
+}
+h1{
+    background-color: white;
 }
